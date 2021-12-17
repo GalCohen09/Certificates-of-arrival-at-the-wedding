@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">גל וארז מתחתנים !</string>
+    <string name="participant">האם תשתתף?</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="info">10/10/21 באולם גרייס,\n  19:00 קבלת פנים, 20:00 חופה</string>
+    <string name="howMany">כמה אנשים תהיו ?</string>
+    <string name="bye">להתראות</string>
+    <string name="cont">האם אתה בטוח שברצונך להמשיך ?</string>
+    <string name="Continue">המשך</string>
+    <string name="name">הכנס שם מלא</string>
+    <string name="vegan">טבעוני</string>
+    <string name="glatt">גלאט כשר</string>
+    <string name="vegetarian">צמחוני</string>
+    <string name="gluten">ללא גלוטן</string>
+    <string name="regular">רגיל</string>
+    <string name="send1">שלח</string>
+    <string name="carpool">האם תרצה להצטרף למערך הקארפול שלנו?</string>
+    <string name="ride">נסיעה</string>
+    <string name="hitchhiker">צריך טרמפ</string>
+    <string name="driver">מספק טרמפ</string>
+    <string name="bye2">נתראה בחתונה !</string>
+    <string name="driverPlaces">כמה מקומות יש לך ?</string>
+    <string name="enternum">הכנס לפחות את עצמך</string>
+    <string name="enter">הכנס את עירך ומס\' מקומות</string>
+    <string name="names">בבקשה הכנס שם</string>
+    <string name="hitchherPlace">כמה מקומות תצטרך ?</string>
+    <string name="city">הכנס עיר</string>
+</resources>

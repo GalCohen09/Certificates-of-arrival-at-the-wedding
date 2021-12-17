@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Gal &amp; Erez Getting merried</string>
+    <string name="participant">would you participant?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="info">10/10/21 in Grace hall,\n 19:00 Reception, 20:00 ceremony</string>
+    <string name="howMany">how many people will you be ?</string>
+    <string name="bye">bye bye</string>
+    <string name="cont">Are you sure you want to continue ?</string>
+    <string name="Continue">continue</string>
+    <string name="name">Enter Full Name</string>
+
+    <string-array name="meal">
+        <item>@string/vegan</item>
+        <item>@string/glatt</item>
+        <item>@string/vegetarian</item>
+        <item>@string/gluten</item>
+        <item>@string/regular</item>
+    </string-array>
+    <string name="vegan">Vegan</string>
+    <string name="glatt">" Glatt kosher"</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="gluten">" Gluten free"</string>
+    <string name="regular">Regular</string>
+    <string name="send1">Send</string>
+    <string name="carpool">Would you like to join our Carpool lineup?</string>
+    <string name="ride">ride</string>
+    <string name="hitchhiker">Need a ride</string>
+    <string name="driver">Provides a ride</string>
+    <string name="bye2">See you at the wedding !</string>
+    <string name="hitchherPlace">how much places do you need ?</string>
+    <string name="driverPlaces">how much places do you have ?</string>
+    <string name="enternum">Enter at least yourself !</string>
+    <string name="enter">Enter your city and number of places</string>
+    <string name="names">Please enter name</string>
+    <string name="city">Select a city</string>
+
+</resources>

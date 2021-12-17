@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/howMany"
+        android:text="@string/howMany"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:padding="30dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:id="@+id/numOfP"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_selector"
+        android:textColor="@color/white"
+        android:id="@+id/conti"
+        android:text="@string/Continue"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:id="@+id/send"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="@string/send1"
+        android:gravity="center|bottom"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/btnsL1">
+
+        <ScrollView
+            android:id="@+id/hsv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:measureAllChildren="false"
+            android:layout_marginHorizontal="30dp"
+            android:fadeScrollbars="false"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarFadeDuration="50000"
+            android:background="#00FFFFFF">
+
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/btnsL">
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

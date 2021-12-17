@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/gettingMerried"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pacifico"
+        android:textSize="30sp"
+        android:paddingVertical="20dp"
+        android:paddingHorizontal="30dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="#D88181"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pacifico"
+        android:text="@string/info"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/waze"
+        android:src="@drawable/wazelogo"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/participant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/participant"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="0.5"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yes_no"
+        >
+        <RadioButton
+            android:layout_gravity="center"
+            android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/yes"
+            android:textSize="15dp"
+            android:layout_weight="0.5"
+            />
+
+        <RadioButton
+            android:layout_gravity="center"
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/no"
+            android:textSize="15dp"
+            android:layout_weight="0.5"/>
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        />
+
+
+
+</LinearLayout>
